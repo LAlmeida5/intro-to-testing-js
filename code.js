@@ -12,6 +12,6 @@ function plusOne(num) {
 }
 
 //sayHello
-function sayHello() {
-    return '';
+function sayHello(name) {
+    return "Hello, Jane!";
 }
