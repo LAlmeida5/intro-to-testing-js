@@ -19,6 +19,11 @@ function sayHello(name) {
         return "Hello, World!";
     }
 }
+
+//isFive
+function isFive(num) {
+    return;
+}
     // if(typeof name === undefined || Boolean) {
     //     return "Hello, World!";
     // }else if(name === true) {

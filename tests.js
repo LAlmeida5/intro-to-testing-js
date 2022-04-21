@@ -57,5 +57,11 @@ describe("sayHello", function() {
     it('should return the string "Hello, World!"', function () {
         expect(sayHello(false)).toBe("Hello, World!");
     });
+})
 
+//isFive Function: Exercise 10
+describe("isFive", function () {
+    it('should be a defined function', function () {
+        expect(typeof isFive).toBe("function");
+    });
 })
