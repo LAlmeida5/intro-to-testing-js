@@ -13,8 +13,21 @@ function plusOne(num) {
 
 //sayHello
 function sayHello(name) {
-    return "Hello, " + name + "!";
+    if (typeof name === "string") {
+        return "Hello, " + name + "!";
+    } else if (typeof name === undefined || Boolean) {
+        return "Hello, World!";
+    }
 }
+    // if(typeof name === undefined || Boolean) {
+    //     return "Hello, World!";
+    // }else if(name === true) {
+    //     return "Hello, World!";
+    // }else if(name === false) {
+    //     return "Hello, World!";
+    // }else {
+    //     return "Hello, " + name + "!";
+    // }
 
 //     if (name === "Alex") {
 //         return "Hello, Alex!";
